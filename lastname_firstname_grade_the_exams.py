@@ -6,7 +6,7 @@ while True:
     # TASK 1
     while True:
         filename = input(
-            "Enter the class name to open (i.e. class for class1.txt) \n")
+            "Enter the class name to open (i.e. class for class1.txt) ")
         try:
             f = open(filename+".txt")
             print("Successfully opened class file with name:", filename)
